@@ -1,15 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-FileIntro: Main2, testings on DecisionTree and Ensemble Models
-
-Created on Thu Jun 25 18:17:47 2020
-
-@author: Archer Zhu
-
-* grid search for parameter tuning
-* time train test split
-"""
-
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LogisticRegression
