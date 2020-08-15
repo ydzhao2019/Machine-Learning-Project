@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-FileIntro:
-
-Created on Mon Jun 29 09:06:37 2020
-
-@author: Archer Zhu
-"""
 import pandas as pd
 import numpy as np
 from get_feature import get_all_feature, get_PCA_factors
