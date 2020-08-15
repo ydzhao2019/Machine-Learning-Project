@@ -157,7 +157,7 @@ if __name__ == '__main__':
 #    data, Y = get_test(st,ed,parameters='All')
 #    feature = get_all_feature(False, start =st, end=ed)
 #    # cal X and Y
-#    x = GetKhorX(data, feature, n_lag=3).dropna() # data before 2000 and after 2020 all drop due to missing data
+#    x = Select_Feature(data, feature, n_lag=3).dropna() # data before 2000 and after 2020 all drop due to missing data
 #    y = CategorizeY(Y,method='roll_vol').loc[x.index]
     x, y = Feature_Inputs(st = '1998-01-02', ed = '2019-12-31')
 
